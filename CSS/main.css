@@ -63,6 +63,24 @@ a {
     }
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--main-BlackColor);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border: 3px solid var(--main-BlackColor);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(54, 100%, 40%);
+}
+
 /* ====================================
     Components
 =====================================*/
