@@ -81,6 +81,14 @@ a {
     background-color: hsl(54, 100%, 40%);
 }
 
+/* For being supported on firefox */
+@supports (scrollbar-color: var(--main-color) var(--main-BlackColor)) {
+    * {
+        scrollbar-color: var(--main-color) var(--main-BlackColor);
+        scrollbar-width: thin;
+    }
+}
+
 /* ====================================
     Components
 =====================================*/
